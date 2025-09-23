@@ -6,7 +6,7 @@ export default function DesktopInstructionsPage() {
   const navigate = useNavigate();
   return (
     <div className="welcome-root" style={{ minHeight: 520, position: "relative" }}>
-      <LogoButton />
+      <LogoButton isStatic size={260} />
       <h2 className="welcome-title">Desktop Return Instructions</h2>
       <ul style={{ textAlign: "left", margin: "24px auto", maxWidth: 380, color: "#444", lineHeight: 1.7 }}>
         <li>1. Back up important files and shut down the desktop.</li>

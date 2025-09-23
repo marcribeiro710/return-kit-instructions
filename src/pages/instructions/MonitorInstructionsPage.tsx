@@ -6,7 +6,7 @@ export default function MonitorInstructionsPage() {
   const navigate = useNavigate();
   return (
     <div className="welcome-root" style={{ minHeight: 520, position: "relative" }}>
-      <LogoButton />
+      <LogoButton isStatic size={260} />
       <h2 className="welcome-title">Single Monitor Return Instructions</h2>
       <ul style={{ textAlign: "left", margin: "24px auto", maxWidth: 380, color: "#444", lineHeight: 1.7 }}>
         <li>1. Power off and disconnect the monitor and cables.</li>

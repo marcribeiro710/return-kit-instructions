@@ -6,7 +6,7 @@ export default function LargeItemsInstructionsPage() {
   const navigate = useNavigate();
   return (
     <div className="welcome-root" style={{ minHeight: 520, position: "relative" }}>
-      <LogoButton />
+      <LogoButton isStatic size={260} />
       <h2 className="welcome-title">Large Items/Quantities Return Instructions</h2>
       <ul style={{ textAlign: "left", margin: "24px auto", maxWidth: 380, color: "#444", lineHeight: 1.7 }}>
         <li>1. Organize items logically (e.g., all keyboards together).</li>
