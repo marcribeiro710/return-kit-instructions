@@ -1,0 +1,1 @@
+This directory stores step-by-step instruction images for the Desktop Instructions page. Place all referenced images here for static app delivery.
