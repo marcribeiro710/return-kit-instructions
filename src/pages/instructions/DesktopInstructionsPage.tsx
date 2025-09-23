@@ -11,19 +11,13 @@ export default function DesktopInstructionsPage() {
         Desktop Return Instructions
       </h1>
       {/* BEGIN: Google Doc Embed for Desktop Packing Instructions */}
-      <div className="google-doc-section">
+      <div className="google-doc-section" style={{ width: '100%', maxWidth: 650, margin: '0 auto' }}>
         <iframe
           src="https://docs.google.com/document/d/e/2PACX-1vS6Xy8jYjad8gGaNkLLw9jxLPmxLabdl27_gUt5ES20LKmK7605W9-MzGij8OCUbuedQD468jQ1SgpB/pub?embedded=true"
           title="Desktop Packing Instructions Google Doc"
           width="100%"
           height="900px"
-          style={{
-            border: 'none',
-            background: '#fff',
-            maxWidth: '100%',
-            boxSizing: 'border-box',
-            overflowX: 'hidden'
-          }}
+          style={{ border: 'none', background: '#fff' }}
           allowFullScreen={true}
         />
       </div>
