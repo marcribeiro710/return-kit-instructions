@@ -13,7 +13,7 @@ export default function DesktopInstructionsPage() {
       {/* BEGIN: Desktop Packing Instructions Content */}
       <div className="google-doc-section">
         <p><b>Packaging your full size desktop:</b></p>
-        <ol style={{ textAlign: 'left', maxWidth: 600, margin: '0 auto', fontSize: 18 }}>
+        <ol style={{ fontSize: 18 }}>
           <li>Remove the 4 corner foam protectors from the box. Set them aside to reuse later. Do <u>not</u> remove the inner box—just open the flaps.</li>
           <li>Wrap your tower with the included bubble wrap and place it inside the inner box. It should be snug; if too tight, use less bubble wrap and reinsert.</li>
           <li>Tape the inner box closed using one of the provided pieces of tape.</li>
