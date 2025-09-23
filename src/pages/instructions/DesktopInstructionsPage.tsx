@@ -7,15 +7,27 @@ export default function DesktopInstructionsPage() {
   return (
     <div className="welcome-root">
       <LogoButton isStatic size={376} style={{ marginBottom: 13, display: 'block' }} />
-      <h1 className="welcome-title" style={{ marginBottom: 31 }}>Desktop Return Instructions</h1>
-      <ul style={{ textAlign: "left", margin: "24px auto", maxWidth: 380, color: "#444", lineHeight: 1.7 }}>
-        <li>1. Back up important files and shut down the desktop.</li>
-        <li>2. Remove all accessories and external drives.</li>
-        <li>3. Clean the case exterior and vents if dusty.</li>
-        <li>4. Use sturdy box, plenty of padding around the desktop.</li>
-        <li>5. Place power cables, mouse, and keyboard in a bag inside the box.</li>
-        <li>6. Seal box, affix return label, and arrange drop-off as instructed.</li>
-      </ul>
+      <h1 className="welcome-title" style={{ marginBottom: 31 }}>
+        Desktop Return Instructions
+      </h1>
+      {/* BEGIN: Imported Google Docs Content */}
+      <div className="google-doc-section">
+        <p><b>Step 1: Data & Accessories</b>
+        <br/>Backup your files, sign out of accounts, and unplug all accessories (mouse, keyboard, drives).</p>
+
+        <img src="/assets/desktop_step1.jpg" alt="Backing up desktop, unplugging accessories" style={{ width: "100%", maxWidth: 400, margin: "18px auto" }} />
+
+        <p><b>Step 2: Clean & Prep</b>
+        <br/>Shut down the desktop. Clean the exterior surfaces and remove any dust from vents with a dry cloth.</p>
+
+        <img src="/assets/desktop_step2.jpg" alt="Cleaning desktop case" style={{ width: "100%", maxWidth: 400, margin: "18px auto" }} />
+
+        <p><b>Step 3: Pack & Ship</b>
+        <br/>Use a large, sturdy box with padding for the desktop. Put cables, keyboard, and mouse in a bag inside. Seal, label, and return to the specified drop-off point.</p>
+
+        <img src="/assets/desktop_step3.jpg" alt="Packing desktop in box" style={{ width: "100%", maxWidth: 400, margin: "18px auto" }} />
+      </div>
+      {/* END: Imported Google Docs Content */}
       <button className="return-option" onClick={() => navigate("/")}>Back to Instructions</button>
     </div>
   );
