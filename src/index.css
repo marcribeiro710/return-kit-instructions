@@ -11,22 +11,20 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
+body::before {
   content: "";
   position: fixed;
   z-index: 0;
   inset: 0;
   pointer-events: none;
-  /* Light grid SVG as background */
-  background-image:
-    url('data:image/svg+xml;utf8,<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="50" height="50" fill="none"/><g opacity="0.11"><path d="M0 0H50V50H0V0ZM10 0V50M20 0V50M30 0V50M40 0V50M0 10H50M0 20H50M0 30H50M0 40H50" stroke="%23449fd9" stroke-width="1"/></g></svg>');
+  background-image: url('data:image/svg+xml;utf8,<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="50" height="50" fill="none"/><g opacity="0.11"><path d="M0 0H50V50H0V0ZM10 0V50M20 0V50M30 0V50M40 0V50M0 10H50M0 20H50M0 30H50M0 40H50" stroke="%23449fd9" stroke-width="1"/></g></svg>');
   background-repeat: repeat;
   background-size: 52px 52px;
   opacity: 0.23;
   mix-blend-mode: lighten;
-  /* Fadeout with radial gradient mask */
+  /* Center fade-out effect using a radial mask */
   -webkit-mask-image: radial-gradient(ellipse 60% 60% at 50% 40%, rgba(0,0,0,0.7) 75%, transparent 100%);
   mask-image: radial-gradient(ellipse 60% 60% at 50% 40%, rgba(0,0,0,0.7) 75%, transparent 100%);
 }
