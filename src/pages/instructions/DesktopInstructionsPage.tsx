@@ -2,7 +2,7 @@
 import { useNavigate } from "react-router-dom";
 import LogoButton from "../../shared/LogoButton";
 import "../../App.css";
-
+export default function DesktopInstructionsPage() {
   const navigate = useNavigate();
 
   // Images taken directly from the Google Doc HTML export
