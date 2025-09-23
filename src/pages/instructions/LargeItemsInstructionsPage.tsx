@@ -5,8 +5,10 @@ import "../../App.css";
 export default function LargeItemsInstructionsPage() {
   const navigate = useNavigate();
   return (
-    <div className="welcome-root" style={{ minHeight: 520, position: "relative" }}>
-      <LogoButton isStatic size={260} />
+    <div className="welcome-root">
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
+        <LogoButton isStatic size={260} style={{ margin: '0 auto 20px auto', display: 'block' }} />
+      </div>
       <h2 className="welcome-title">Large Items/Quantities Return Instructions</h2>
       <ul style={{ textAlign: "left", margin: "24px auto", maxWidth: 380, color: "#444", lineHeight: 1.7 }}>
         <li>1. Organize items logically (e.g., all keyboards together).</li>

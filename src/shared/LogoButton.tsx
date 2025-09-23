@@ -5,19 +5,18 @@ import { useNavigate } from "react-router-dom";
 interface LogoButtonProps {
   isStatic?: boolean;
   size?: number;
+  style?: React.CSSProperties;
 }
 
-export default function LogoButton({ isStatic = false, size = 52 }: LogoButtonProps) {
+export default function LogoButton({ isStatic = false, size = 52, style }: LogoButtonProps) {
   const navigate = useNavigate();
-  const imageStyle = {
-    position: "absolute" as const,
-    top: 14,
-    left: 20,
+  const imageStyle: React.CSSProperties = {
     width: size,
     height: "auto",
     borderRadius: 8,
     background: "#fff",
-    cursor: isStatic ? "default" : "pointer"
+    cursor: isStatic ? "default" : "pointer",
+    ...style,
   };
   return (
     <img
