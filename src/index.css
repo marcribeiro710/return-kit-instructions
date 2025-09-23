@@ -28,6 +28,11 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  /* Subtle tech-y radial gradient background */
+  background:
+    radial-gradient(ellipse at 40% 25%, #def1ff 0%, #f5f6fc 45%, #e9e6fc 90%, #f9fafc 100%);
+  /* fallback solid color */
+  background-color: #f9fafc;
 }
 
 h1 {
