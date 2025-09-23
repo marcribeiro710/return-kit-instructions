@@ -6,10 +6,8 @@ export default function LaptopInstructionsPage() {
   const navigate = useNavigate();
   return (
     <div className="welcome-root">
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
-        <LogoButton isStatic size={376} style={{ margin: '0 auto 20px auto', display: 'block' }} />
-      </div>
-      <h2 className="welcome-title">Laptop Return Instructions</h2>
+      <LogoButton isStatic size={376} style={{ marginBottom: 13, display: 'block' }} />
+      <h1 className="welcome-title">Laptop Return Instructions</h1>
       <ul style={{ textAlign: "left", margin: "24px auto", maxWidth: 380, color: "#444", lineHeight: 1.7 }}>
         <li>1. Save your files and sign out of all accounts.</li>
         <li>2. Turn off, unplug, and clean your laptop.</li>
