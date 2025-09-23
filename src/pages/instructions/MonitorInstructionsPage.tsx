@@ -6,18 +6,18 @@ import "../../App.css";
 export default function MonitorInstructionsPage() {
   const monitorBlocks = [
     { type: "title", content: "Single Monitor Return Instructions" },
-    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXeTwD8HNsIEGopL_NTwttvJ09sM9pLqv-txVCuU1Zt5iCEzBuYfqzM-Qo2v7BEd0VZTYt36Fr_OSKurAwMS6AlhExWUlN4EKGWjrxugQooMSqs0BppMJnGfbUY9sLVrHJHZYKdT?key=2Nw8X9s7WldysDyqAkD7pg", style: { maxWidth: 441 } },
-    { type: "paragraph", content: "1. Unplug the monitor from power and detach all cables." },
-    { type: "paragraph", content: "2. Remove the stand/base from the monitor if detachable." },
-    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXelP4U_rKAw_UzmFEZWFbfkHheXl2zR_z_fyTtBa5po8g04SsvyNlP3uK5cI-eY_BvgLyGSVaZUGroO80TrQigzslVby4kxHw5NZXoOLHw7u7s3Tj6WZRwPgzxkEN41rgRkE7sl?key=2Nw8X9s7WldysDyqAkD7pg", style: { maxWidth: 441 } },
-    { type: "paragraph", content: "3. If you have the original box, place the monitor face down surrounded by foam or the original inserts. Otherwise, generously wrap the monitor in bubble wrap and place it in a sturdy shipping box." },
-    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdhaHNIMdrYLDLZ_b-oySwj7hZueRfAJhcQXDpZHjtA7_IZAopnKEnvTg42yx4xvlozMfQIgFZEM_WH1wsLnwYaKWefsfpwMa6RLa2FQ1lhxRmTHBXDfMSOi1Tgnwntq-ydA2sh?key=2Nw8X9s7WldysDyqAkD7pg", style: { maxWidth: 441 } },
-    { type: "paragraph", content: "4. Place cables and accessories in a smaller bag or box, and secure it inside the main shipping box (not loose)." },
-    { type: "paragraph", content: "5. Fill any extra space around the monitor with soft packing material to prevent movement during shipping." },
-    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXegaUmPu8WkeAh_H9YG1aJd5Qn0ioKIAiEqepROx8Y2wZtzp-d44quqXzmWQ6dHcSvhvEKXxtPXuAlqujZsz2rfZIQ9vdwHzPX8ny6Qv1zDFCBzTLMjl72bLoPQSHypD0mjL_KR?key=2Nw8X9s7WldysDyqAkD7pg", style: { maxWidth: 441 } },
-    { type: "paragraph", content: "6. Tape the box securely and attach the included return shipping label over any old labels." },
-    { type: "paragraph", content: "7. Drop off the package at the designated shipping location or schedule a pickup." },
-    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXsLZyGMd49amdaZK2FytIhO2yFL7TYOLqKWKBtBSUuGQZyvPvUlQ7sfeAd7ThJkqPZaeXk2tEYZ1PdHljkzFQKywqSSMToWyxk6musNPaKFp-4g2fvQnsG8U8KuclUAdJVFlc?key=2Nw8X9s7WldysDyqAkD7pg", style: { maxWidth: 441 } }
+    { type: "paragraph", content: "1. Unplug and clean your monitor. Remove all cables and accessories." },
+    { type: "image", src: "https://lh7-us.googleusercontent.com/1kB5L9EWk1129j2U8GpTs2W6fOIiTXKhPVILJwT13sYSJwoATdB51CGdm4xvWp9w1wiJKMxzzzLg6Rf35ayu0bawrA62JNvlUgpi9jZsVp6tDgHiI1V0s2tl7wGUkmnp7w=w624", style: { maxWidth: 624 } },
+    { type: "paragraph", content: "2. Detach the monitor stand/base if possible." },
+    { type: "image", src: "https://lh7-us.googleusercontent.com/T-hZSTFxp7nEM7M4jOHvlnJld4xKuw7KICsmDDHHmiqpMNsfGF1trKDX2z4AAEcln0t_QBMup6J4QfA-0-YV8rjfE6g41FnTBGvVtMEqK3h-MkOzTox4yGDiwB1wFOdLcA=w441", style: { maxWidth: 441 } },
+    { type: "paragraph", content: "3. Use the original box and foam inserts if available. Otherwise, wrap the monitor securely with bubble wrap." },
+    { type: "image", src: "https://lh7-us.googleusercontent.com/f0YFrqh50Exr7kjV8RxaA5u7XdiTGEb4tZXyxtcHx_d0j1O2GeH0BlHyx66r8BdUV6liGUmUV9OMMLqFWQqKPlm5EK6nIlRtANLSI4ehBd4EWUlSDXBUhbvR812NRZt2Ew=w441", style: { maxWidth: 441 } },
+    { type: "paragraph", content: "4. Place all cables and small accessories in a clearly labeled bag inside the main box." },
+    { type: "paragraph", content: "5. Use extra packing material as needed to ensure there's no movement inside the box." },
+    { type: "image", src: "https://lh7-us.googleusercontent.com/P5A44TlwTiCrnMgQ1wCg7uabS02RKwIuDhUILKCqfU26W6AbZ4Wk1_Hw-9Uhxnz3VpH7N12Y1v7Uk2inFoaljTG1qjQcpjXZ2e8HLJMZUzQK1ECvHChIBNJkjmWGBchrcg=w441", style: { maxWidth: 441 } },
+    { type: "paragraph", content: "6. Tape the box securely and attach the provided return label over any other labels." },
+    { type: "paragraph", content: "7. Drop the box at the designated shipping location or arrange a pickup as instructed." },
+    { type: "image", src: "https://lh7-us.googleusercontent.com/ihTQBv2zprmeOxZC1kmEG9YJKisnqLsGAOHak0mw2pqa_6uEFK7W7QZAGQuWR5J4hCBYQnxaXo_2i7dCgYAl8IIWk2F1lxHnRdyKw5fpBxMq7BPB3XV8bQdiP7o9eIlfKWg=w441", style: { maxWidth: 441 } }
   ];
   const navigate = useNavigate();
   return (
