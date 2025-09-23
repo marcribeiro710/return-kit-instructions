@@ -10,8 +10,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  min-height: 85vh;
+  justify-content: flex-start;
+  min-height: 0;
   background: #fff;
   border-radius: 26px;
   box-shadow: 0 14px 54px 0 rgba(16, 30, 54, 0.09), 0 1.5px 6px 0 rgba(32,50,80,0.075);
