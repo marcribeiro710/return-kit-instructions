@@ -14,17 +14,21 @@
 
 }
 
-body::before {
   content: "";
   position: fixed;
   z-index: 0;
   inset: 0;
   pointer-events: none;
-  background-image: url('data:image/svg+xml;utf8,<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="120" height="120" fill="none"/><g opacity="0.16"><path d="M10 20 L10 30 Q10 35 15 35 L40 35 Q50 35 50 45 L50 60 M60 10 Q70 10 70 20 L70 100 Q70 110 80 110" stroke="%234597a7" stroke-width="2" fill="none"/><circle cx="10" cy="20" r="2" fill="%234597a7"/><circle cx="50" cy="60" r="2" fill="%234597a7"/><circle cx="70" cy="100" r="2" fill="%234597a7"/><circle cx="60" cy="10" r="2" fill="%234597a7"/></g></svg>');
+  /* Light grid SVG as background */
+  background-image:
+    url('data:image/svg+xml;utf8,<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="50" height="50" fill="none"/><g opacity="0.11"><path d="M0 0H50V50H0V0ZM10 0V50M20 0V50M30 0V50M40 0V50M0 10H50M0 20H50M0 30H50M0 40H50" stroke="%23449fd9" stroke-width="1"/></g></svg>');
   background-repeat: repeat;
-  background-size: 120px 120px;
-  opacity: 0.18;
+  background-size: 52px 52px;
+  opacity: 0.23;
   mix-blend-mode: lighten;
+  /* Fadeout with radial gradient mask */
+  -webkit-mask-image: radial-gradient(ellipse 60% 60% at 50% 40%, rgba(0,0,0,0.7) 75%, transparent 100%);
+  mask-image: radial-gradient(ellipse 60% 60% at 50% 40%, rgba(0,0,0,0.7) 75%, transparent 100%);
 }
 
 a {
