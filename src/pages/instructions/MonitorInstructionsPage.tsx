@@ -6,18 +6,16 @@ import "../../App.css";
 export default function MonitorInstructionsPage() {
   const monitorBlocks = [
     { type: "title", content: "Single Monitor Return Instructions" },
-    { type: "paragraph", content: "1. Unplug and clean your monitor. Remove all cables and accessories." },
-    { type: "image", src: "https://lh7-us.googleusercontent.com/1kB5L9EWk1129j2U8GpTs2W6fOIiTXKhPVILJwT13sYSJwoATdB51CGdm4xvWp9w1wiJKMxzzzLg6Rf35ayu0bawrA62JNvlUgpi9jZsVp6tDgHiI1V0s2tl7wGUkmnp7w=w624", style: { maxWidth: 624 } },
-    { type: "paragraph", content: "2. Detach the monitor stand/base if possible." },
-    { type: "image", src: "https://lh7-us.googleusercontent.com/T-hZSTFxp7nEM7M4jOHvlnJld4xKuw7KICsmDDHHmiqpMNsfGF1trKDX2z4AAEcln0t_QBMup6J4QfA-0-YV8rjfE6g41FnTBGvVtMEqK3h-MkOzTox4yGDiwB1wFOdLcA=w441", style: { maxWidth: 441 } },
-    { type: "paragraph", content: "3. Use the original box and foam inserts if available. Otherwise, wrap the monitor securely with bubble wrap." },
-    { type: "image", src: "https://lh7-us.googleusercontent.com/f0YFrqh50Exr7kjV8RxaA5u7XdiTGEb4tZXyxtcHx_d0j1O2GeH0BlHyx66r8BdUV6liGUmUV9OMMLqFWQqKPlm5EK6nIlRtANLSI4ehBd4EWUlSDXBUhbvR812NRZt2Ew=w441", style: { maxWidth: 441 } },
-    { type: "paragraph", content: "4. Place all cables and small accessories in a clearly labeled bag inside the main box." },
-    { type: "paragraph", content: "5. Use extra packing material as needed to ensure there's no movement inside the box." },
-    { type: "image", src: "https://lh7-us.googleusercontent.com/P5A44TlwTiCrnMgQ1wCg7uabS02RKwIuDhUILKCqfU26W6AbZ4Wk1_Hw-9Uhxnz3VpH7N12Y1v7Uk2inFoaljTG1qjQcpjXZ2e8HLJMZUzQK1ECvHChIBNJkjmWGBchrcg=w441", style: { maxWidth: 441 } },
-    { type: "paragraph", content: "6. Tape the box securely and attach the provided return label over any other labels." },
-    { type: "paragraph", content: "7. Drop the box at the designated shipping location or arrange a pickup as instructed." },
-    { type: "image", src: "https://lh7-us.googleusercontent.com/ihTQBv2zprmeOxZC1kmEG9YJKisnqLsGAOHak0mw2pqa_6uEFK7W7QZAGQuWR5J4hCBYQnxaXo_2i7dCgYAl8IIWk2F1lxHnRdyKw5fpBxMq7BPB3XV8bQdiP7o9eIlfKWg=w441", style: { maxWidth: 441 } }
+    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsd/ANYlcfCVpAhqYbr3BPnwO7P3YqKYAx5eVvku_dXoft7aMY2MB-0a4-IMz_GYgOow_bWCWn6jf1Q_sr27AOknx91coLNSh25FdJCPIkktcOKXd2u8N9MLpNFtIV3VE8aV0W1EBgJsic1TWG0gzFff", style: { maxWidth: 268 } },
+    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsd/ANYlcfC0YokIUv0-DQaYSL2tFpyRKaw24WE4bS5feneTTH5b7AV_bgqFrCdl37qOGxrxc7nkEpUqK4Q8L2IinoU6v4Ydk9HgpObjfODRam72HKNwK0iEBXGvJ8yU8mi5FuwS8FNnXgcdJzdHpT1d0Xc", style: { maxWidth: 268 } },
+    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsd/ANYlcfDKBVsSfGKpHo4htD0SnTgnMn3xXxqzZ8IrnQ1LURzlrY1OhbSMjiAuZhVTdf-HsWYhKZVp3aM0JttkSb1kPZQ9UL9rVnCOwqA_a6BtQ8778k70cmev1wXlx-mLbnjTZWlhvtNxDFrAqSTW5z0", style: { maxWidth: 302 } },
+    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsd/ANYlcfCI41CeSFTYgGZWSEQLlLmoBsdIZJfgdRLuc70SR6tG4lXn77dA6IgUwZxoBSbmeXezmUzBNbKtATrpXACHSkkgP4eHlkGKk24aUAOrzJH55ssSl32s7jMdhfvQ_vpfVtNzcgMUDU_vidl4dOk", style: { maxWidth: 301 } },
+    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsd/ANYlcfBeFv_YfEl6rg4J-A5ZVtHsTFJFlyCrsNhXJxy_yyp1WMeOzuOgGNZENA2c9pAdzvewF0qhNRX0z5w35iG9kSlDN5d0sLXNHwWFjuY9wGIOhhpFTrng2AUMGIpkB3raJQFGJzYErvWfTbX63yQ", style: { maxWidth: 272 } },
+    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsd/ANYlcfAB8auivRjQTO6bqhdpcU1PweJK8jzOIrALidHPf335PNcOgpIgN-HK5g1lJJtTrFNRFJobS_gWj5j6tCIlGCmdlDWwGGL16eDGJrYKxRWHEDcAuT21oojgW1WofPK-OjK0AVfuu1oRPk6z", style: { maxWidth: 293 } },
+    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsd/ANYlcfBWqPegi-ZU_eTG0yZIc2ZIDM_ol8YWrH2WQq_cLcEq-BT_ZO3szswhROuEmAlL891bow6JgQRlrs5r8AC5SIIJm_buP-JmwQ_xmmMN6TWk8QYWtqbPCozb0YQ9UHwj81xvgxRAwthJyKIyyBI", style: { maxWidth: 293 } },
+    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsd/ANYlcfBWy3321BUQ6r_bS73IeK1-S-A3V6pvlve9XXeOG-9USvxuhkKqauB073OznQTSWSrPWhHDkkeSFX4u2VZD_pTbFp3JsS-IwXe8LnGlKiMaQQl6P3YEKeJextXIoS_ndXPXlo91Mi1FSy2OyPg", style: { maxWidth: 278 } },
+    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsd/ANYlcfCyji8xughCPAT-Ng53hmsguuo_7tsCHaEQAh5xigi5jJkUsE8JWbYcjUYQSTLXXyqPYZ59_B8qTDiNueZfOylzL_xfbrX0JhiNFbT2XCdK3KGofMmXasWuooQSFhWHJs2nhEP8YLR8D5QG8NQ", style: { maxWidth: 278 } },
+    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsd/ANYlcfAp38iwY4v2D40wB1fmqtVef4CuK0QOCO2OwJAsW3DWJukO5irTRzLIdNc6fgpgUembZP1-Iqs_qdlM1mmN8GXl9LZaBYMcD_jTgmHI3WzARL3Qzp-xbkX3QESra57ORKW71phah6dHOAvG", style: { maxWidth: 240 } },
   ];
   const navigate = useNavigate();
   return (
