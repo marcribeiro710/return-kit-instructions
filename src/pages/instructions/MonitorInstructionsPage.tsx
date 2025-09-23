@@ -5,17 +5,28 @@ import "../../App.css";
 
 export default function MonitorInstructionsPage() {
   const monitorBlocks = [
-    { type: "title", content: "Single Monitor Return Instructions" },
-    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsd/ANYlcfCVpAhqYbr3BPnwO7P3YqKYAx5eVvku_dXoft7aMY2MB-0a4-IMz_GYgOow_bWCWn6jf1Q_sr27AOknx91coLNSh25FdJCPIkktcOKXd2u8N9MLpNFtIV3VE8aV0W1EBgJsic1TWG0gzFff", style: { maxWidth: 268 } },
-    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsd/ANYlcfC0YokIUv0-DQaYSL2tFpyRKaw24WE4bS5feneTTH5b7AV_bgqFrCdl37qOGxrxc7nkEpUqK4Q8L2IinoU6v4Ydk9HgpObjfODRam72HKNwK0iEBXGvJ8yU8mi5FuwS8FNnXgcdJzdHpT1d0Xc", style: { maxWidth: 268 } },
-    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsd/ANYlcfDKBVsSfGKpHo4htD0SnTgnMn3xXxqzZ8IrnQ1LURzlrY1OhbSMjiAuZhVTdf-HsWYhKZVp3aM0JttkSb1kPZQ9UL9rVnCOwqA_a6BtQ8778k70cmev1wXlx-mLbnjTZWlhvtNxDFrAqSTW5z0", style: { maxWidth: 302 } },
-    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsd/ANYlcfCI41CeSFTYgGZWSEQLlLmoBsdIZJfgdRLuc70SR6tG4lXn77dA6IgUwZxoBSbmeXezmUzBNbKtATrpXACHSkkgP4eHlkGKk24aUAOrzJH55ssSl32s7jMdhfvQ_vpfVtNzcgMUDU_vidl4dOk", style: { maxWidth: 301 } },
-    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsd/ANYlcfBeFv_YfEl6rg4J-A5ZVtHsTFJFlyCrsNhXJxy_yyp1WMeOzuOgGNZENA2c9pAdzvewF0qhNRX0z5w35iG9kSlDN5d0sLXNHwWFjuY9wGIOhhpFTrng2AUMGIpkB3raJQFGJzYErvWfTbX63yQ", style: { maxWidth: 272 } },
-    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsd/ANYlcfAB8auivRjQTO6bqhdpcU1PweJK8jzOIrALidHPf335PNcOgpIgN-HK5g1lJJtTrFNRFJobS_gWj5j6tCIlGCmdlDWwGGL16eDGJrYKxRWHEDcAuT21oojgW1WofPK-OjK0AVfuu1oRPk6z", style: { maxWidth: 293 } },
-    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsd/ANYlcfBWqPegi-ZU_eTG0yZIc2ZIDM_ol8YWrH2WQq_cLcEq-BT_ZO3szswhROuEmAlL891bow6JgQRlrs5r8AC5SIIJm_buP-JmwQ_xmmMN6TWk8QYWtqbPCozb0YQ9UHwj81xvgxRAwthJyKIyyBI", style: { maxWidth: 293 } },
-    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsd/ANYlcfBWy3321BUQ6r_bS73IeK1-S-A3V6pvlve9XXeOG-9USvxuhkKqauB073OznQTSWSrPWhHDkkeSFX4u2VZD_pTbFp3JsS-IwXe8LnGlKiMaQQl6P3YEKeJextXIoS_ndXPXlo91Mi1FSy2OyPg", style: { maxWidth: 278 } },
-    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsd/ANYlcfCyji8xughCPAT-Ng53hmsguuo_7tsCHaEQAh5xigi5jJkUsE8JWbYcjUYQSTLXXyqPYZ59_B8qTDiNueZfOylzL_xfbrX0JhiNFbT2XCdK3KGofMmXasWuooQSFhWHJs2nhEP8YLR8D5QG8NQ", style: { maxWidth: 278 } },
-    { type: "image", src: "https://lh7-rt.googleusercontent.com/docsd/ANYlcfAp38iwY4v2D40wB1fmqtVef4CuK0QOCO2OwJAsW3DWJukO5irTRzLIdNc6fgpgUembZP1-Iqs_qdlM1mmN8GXl9LZaBYMcD_jTgmHI3WzARL3Qzp-xbkX3QESra57ORKW71phah6dHOAvG", style: { maxWidth: 240 } },
+    { type: 'title', content: 'Single Monitor Return Instructions' },
+    { type: 'paragraph', content: 'Please follow these step-by-step instructions to safely package and return your single monitor and accessories.' },
+    { type: 'paragraph', content: '1. Shut down and unplug your monitor. Remove all cables and attached devices.' },
+    { type: 'image', src: 'https://lh7-rt.googleusercontent.com/docsd/ANYlcfCVpAhqYbr3BPnwO7P3YqKYAx5eVvku_dXoft7aMY2MB-0a4-IMz_GYgOow_bWCWn6jf1Q_sr27AOknx91coLNSh25FdJCPIkktcOKXd2u8N9MLpNFtIV3VE8aV0W1EBgJsic1TWG0gzFff', style: { maxWidth: 268 } },
+    { type: 'paragraph', content: '2. If possible, remove the monitor stand/base.' },
+    { type: 'image', src: 'https://lh7-rt.googleusercontent.com/docsd/ANYlcfC0YokIUv0-DQaYSL2tFpyRKaw24WE4bS5feneTTH5b7AV_bgqFrCdl37qOGxrxc7nkEpUqK4Q8L2IinoU6v4Ydk9HgpObjfODRam72HKNwK0iEBXGvJ8yU8mi5FuwS8FNnXgcdJzdHpT1d0Xc', style: { maxWidth: 268 } },
+    { type: 'paragraph', content: '3. Gently clean the screen and body with a soft, dry microfiber cloth.' },
+    { type: 'image', src: 'https://lh7-rt.googleusercontent.com/docsd/ANYlcfDKBVsSfGKpHo4htD0SnTgnMn3xXxqzZ8IrnQ1LURzlrY1OhbSMjiAuZhVTdf-HsWYhKZVp3aM0JttkSb1kPZQ9UL9rVnCOwqA_a6BtQ8778k70cmev1wXlx-mLbnjTZWlhvtNxDFrAqSTW5z0', style: { maxWidth: 302 } },
+    { type: 'paragraph', content: '4. Place your monitor face-down in the original packaging foam or use generous bubble wrap to cover it securely.' },
+    { type: 'image', src: 'https://lh7-rt.googleusercontent.com/docsd/ANYlcfCI41CeSFTYgGZWSEQLlLmoBsdIZJfgdRLuc70SR6tG4lXn77dA6IgUwZxoBSbmeXezmUzBNbKtATrpXACHSkkgP4eHlkGKk24aUAOrzJH55ssSl32s7jMdhfvQ_vpfVtNzcgMUDU_vidl4dOk', style: { maxWidth: 301 } },
+    { type: 'paragraph', content: '5. Place all cables, adapters, and accessories in a clearly labeled bag, and secure inside the box (not loose).' },
+    { type: 'image', src: 'https://lh7-rt.googleusercontent.com/docsd/ANYlcfBeFv_YfEl6rg4J-A5ZVtHsTFJFlyCrsNhXJxy_yyp1WMeOzuOgGNZENA2c9pAdzvewF0qhNRX0z5w35iG9kSlDN5d0sLXNHwWFjuY9wGIOhhpFTrng2AUMGIpkB3raJQFGJzYErvWfTbX63yQ', style: { maxWidth: 272 } },
+    { type: 'paragraph', content: '6. Add extra packing material on all sides of the monitor. Ensure there is no room for movement during shipping.' },
+    { type: 'image', src: 'https://lh7-rt.googleusercontent.com/docsd/ANYlcfAB8auivRjQTO6bqhdpcU1PweJK8jzOIrALidHPf335PNcOgpIgN-HK5g1lJJtTrFNRFJobS_gWj5j6tCIlGCmdlDWwGGL16eDGJrYKxRWHEDcAuT21oojgW1WofPK-OjK0AVfuu1oRPk6z', style: { maxWidth: 293 } },
+    { type: 'paragraph', content: '7. Tape the box securely and affix the provided shipping label over any other labels.' },
+    { type: 'image', src: 'https://lh7-rt.googleusercontent.com/docsd/ANYlcfBWqPegi-ZU_eTG0yZIc2ZIDM_ol8YWrH2WQq_cLcEq-BT_ZO3szswhROuEmAlL891bow6JgQRlrs5r8AC5SIIJm_buP-JmwQ_xmmMN6TWk8QYWtqbPCozb0YQ9UHwj81xvgxRAwthJyKIyyBI', style: { maxWidth: 293 } },
+    { type: 'paragraph', content: '8. Drop the package at your assigned carrier or schedule a pickup as instructed.' },
+    { type: 'image', src: 'https://lh7-rt.googleusercontent.com/docsd/ANYlcfBWy3321BUQ6r_bS73IeK1-S-A3V6pvlve9XXeOG-9USvxuhkKqauB073OznQTSWSrPWhHDkkeSFX4u2VZD_pTbFp3JsS-IwXe8LnGlKiMaQQl6P3YEKeJextXIoS_ndXPXlo91Mi1FSy2OyPg', style: { maxWidth: 278 } },
+    { type: 'paragraph', content: 'If you have any questions, please contact support before shipping.' },
+    { type: 'image', src: 'https://lh7-rt.googleusercontent.com/docsd/ANYlcfCyji8xughCPAT-Ng53hmsguuo_7tsCHaEQAh5xigi5jJkUsE8JWbYcjUYQSTLXXyqPYZ59_B8qTDiNueZfOylzL_xfbrX0JhiNFbT2XCdK3KGofMmXasWuooQSFhWHJs2nhEP8YLR8D5QG8NQ', style: { maxWidth: 278 } },
+    { type: 'paragraph', content: 'Thank you for following these return instructions.' },
+    { type: 'image', src: 'https://lh7-rt.googleusercontent.com/docsd/ANYlcfAp38iwY4v2D40wB1fmqtVef4CuK0QOCO2OwJAsW3DWJukO5irTRzLIdNc6fgpgUembZP1-Iqs_qdlM1mmN8GXl9LZaBYMcD_jTgmHI3WzARL3Qzp-xbkX3QESra57ORKW71phah6dHOAvG', style: { maxWidth: 240 } }
   ];
   const navigate = useNavigate();
   return (
