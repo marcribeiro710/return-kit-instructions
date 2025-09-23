@@ -7,7 +7,7 @@ export default function LaptopInstructionsPage() {
   return (
     <div className="welcome-root">
       <LogoButton isStatic size={376} style={{ marginBottom: 13, display: 'block' }} />
-      <h1 className="welcome-title">Laptop Return Instructions</h1>
+      <h1 className="welcome-title" style={{ marginBottom: 31 }}>Laptop Return Instructions</h1>
       <ul style={{ textAlign: "left", margin: "24px auto", maxWidth: 380, color: "#444", lineHeight: 1.7 }}>
         <li>1. Save your files and sign out of all accounts.</li>
         <li>2. Turn off, unplug, and clean your laptop.</li>
