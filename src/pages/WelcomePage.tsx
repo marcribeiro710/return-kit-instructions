@@ -11,7 +11,7 @@ export default function WelcomePage() {
         src={companyLogo}
         className="company-logo"
         alt="Company Logo"
-        style={{ cursor: "pointer", position: "absolute", top: 15, left: 24, width: 64, height: "auto", borderRadius: 7 }}
+        style={{ cursor: "pointer" }}
         onClick={() => navigate("/")}
       />
       <h1 className="welcome-title">Welcome to Return Instructions.</h1>
