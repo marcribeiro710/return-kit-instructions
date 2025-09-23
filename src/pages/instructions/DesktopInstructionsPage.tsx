@@ -16,7 +16,7 @@ export default function DesktopInstructionsPage() {
         <li>5. Place power cables, mouse, and keyboard in a bag inside the box.</li>
         <li>6. Seal box, affix return label, and arrange drop-off as instructed.</li>
       </ul>
-      <button className="return-option" onClick={() => navigate("/instructions")}>Back to Instructions</button>
+      <button className="return-option" onClick={() => navigate("/")}>Back to Instructions</button>
     </div>
   );
 }

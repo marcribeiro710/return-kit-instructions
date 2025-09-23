@@ -16,7 +16,7 @@ export default function LargeItemsInstructionsPage() {
         <li>5. Seal the boxes securely and attach return labels.</li>
         <li>6. Arrange for courier pickup if required or deliver to drop-off.</li>
       </ul>
-      <button className="return-option" onClick={() => navigate("/instructions")}>Back to Instructions</button>
+      <button className="return-option" onClick={() => navigate("/")}>Back to Instructions</button>
     </div>
   );
 }

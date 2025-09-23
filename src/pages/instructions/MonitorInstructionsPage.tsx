@@ -16,7 +16,7 @@ export default function MonitorInstructionsPage() {
         <li>5. Seal the box and apply the return shipping label securely.</li>
         <li>6. Take to the specified return drop-off point.</li>
       </ul>
-      <button className="return-option" onClick={() => navigate("/instructions")}>Back to Instructions</button>
+      <button className="return-option" onClick={() => navigate("/")}>Back to Instructions</button>
     </div>
   );
 }

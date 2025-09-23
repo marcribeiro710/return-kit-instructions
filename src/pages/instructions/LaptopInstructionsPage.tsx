@@ -16,7 +16,7 @@ export default function LaptopInstructionsPage() {
         <li>5. Seal the box and attach the provided return label.</li>
         <li>6. Drop the box at a postal location and save your receipt.</li>
       </ul>
-      <button className="return-option" onClick={() => navigate("/instructions")}>Back to Instructions</button>
+      <button className="return-option" onClick={() => navigate("/")}>Back to Instructions</button>
     </div>
   );
 }
