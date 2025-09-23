@@ -13,8 +13,6 @@ export default function LogoButton({ isStatic = false, size = 52, style }: LogoB
   const imageStyle: React.CSSProperties = {
     width: size,
     height: "auto",
-    borderRadius: 8,
-    background: "#fff",
     cursor: isStatic ? "default" : "pointer",
     ...style,
   };
