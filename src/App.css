@@ -5,63 +5,72 @@
   text-align: center;
 }
 
-/* Welcome Page Styles */
+/* Welcome Page Styles - Firstbase.com inspired */
 .welcome-root {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 80vh;
-  background: linear-gradient(135deg, #121e30 0%, #18324b 50%, #236ad4 100%);
-  border-radius: 20px;
-  box-shadow: 0 6px 32px 0 rgba(16,30,54,0.18);
-  padding: 40px 16px;
-  margin: 2rem auto;
-  max-width: 560px;
-}
-.company-logo {
-  width: 92px;
-  height: auto;
-  margin-bottom: 20px;
-  border-radius: 12px;
+  min-height: 85vh;
   background: #fff;
-  box-shadow: 0 2px 10px 0 rgba(32,50,80,0.05);
+  border-radius: 26px;
+  box-shadow: 0 14px 54px 0 rgba(16, 30, 54, 0.09), 0 1.5px 6px 0 rgba(32,50,80,0.075);
+  padding: 60px 28px 48px 28px;
+  margin: 3.5rem auto 2.5rem auto;
+  max-width: 430px;
+  gap: 2rem;
 }
+
+.company-logo {
+  width: 188px;
+  height: auto;
+  margin-bottom: 22px;
+  border-radius: 10px;
+  background: none;
+  box-shadow: none;
+}
+
 .welcome-title {
-  font-size: 2.3rem;
-  font-weight: 800;
-  color: #fff;
-  margin-bottom: 10px;
+  font-size: 2.1rem;
+  font-weight: 900;
+  color: #111827;
+  margin-bottom: 13px;
   font-family: 'Inter', Arial, sans-serif;
+  letter-spacing: -0.5px;
 }
 .welcome-msg {
-  color: #b8d7f8;
-  font-size: 1.2rem;
+  color: #415367;
+  font-size: 1.11rem;
   margin-bottom: 38px;
+  font-weight: 500;
+  line-height: 1.55;
 }
+
 .return-options {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 0.97rem;
   align-items: stretch;
 }
 .return-option {
-  background: #246be8;
+  background: linear-gradient(90deg,#226CFF 60%,#2457EE 100%);
   color: #fff;
-  font-weight: 600;
-  font-size: 1.15rem;
+  font-weight: 700;
+  font-size: 1.14rem;
   border: none;
-  border-radius: 13px;
-  padding: 1.1rem 0.5rem;
-  transition: background 0.18s, transform 0.18s, box-shadow 0.18s;
-  box-shadow: 0 2px 8px 0 rgba(24,54,112,0.04);
+  border-radius: 16px;
+  padding: 1.05rem 0.5rem;
+  transition: background 0.18s, transform 0.14s, box-shadow 0.18s;
+  box-shadow: 0 1.5px 8px 0 rgba(34,108,255,0.09);
   cursor: pointer;
   letter-spacing: 0.01em;
+  margin-bottom: 0.04rem;
 }
 .return-option:hover,
 .return-option:focus {
-  background: #2147c7;
-  transform: translateY(-2px) scale(1.03);
+  background: linear-gradient(96deg,#2457EE 45%, #226CFF 100%);
+  transform: scale(1.03) translateY(-2px);
   outline: none;
+  box-shadow: 0 2px 12px 0 rgba(34,108,255,0.15);
 }
