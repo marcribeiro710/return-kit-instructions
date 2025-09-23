@@ -92,36 +92,3 @@ export default function DesktopInstructionsPage() {
     </div>
   );
 }
-    <div className="welcome-root">
-      <LogoButton isStatic size={376} style={{ marginBottom: 13, display: 'block' }} />
-      <h1 className="welcome-title" style={{ marginBottom: 31 }}>Desktop Return Instructions</h1>
-      <div className="google-doc-section" style={{ width: '100%', maxWidth: 670, margin: '0 auto', textAlign: "left" }}>
-        <h2 style={{ fontSize: 23, fontWeight: "bold", marginBottom: 18 }}>Packaging Your Full Size Desktop</h2>
-        <ol style={{ paddingLeft: 22, fontSize: 18, lineHeight: 1.65, margin: 0 }}>
-          {steps.map((step, idx) => (
-            <li style={{ marginBottom: 29, fontWeight: 400, color: '#19263d' }} key={idx}>
-              <div>{step}</div>
-              {stepImages[idx] ? (
-                <img
-                  src={stepImages[idx]}
-                  alt={`Packing step ${idx + 1}`}
-                  style={{
-                    margin: "18px 0 9px 0",
-                    borderRadius: 8,
-                    maxWidth: idx === 1 ? 340 : idx === 3 ? 340 : idx === 4 ? 360 : idx === 6 ? 390 : idx === 7 ? 336 : 520,
-                    width: "100%",
-                    boxShadow: "0 1px 6px rgba(20,32,70,.13)",
-                  }}
-                />
-              ) : null}
-              {supportingText[idx] ? (
-                <div style={{ marginTop: 13, fontWeight: 600, color: '#444', fontSize: 17 }}>{supportingText[idx]}</div>
-              ) : null}
-            </li>
-          ))}
-        </ol>
-      </div>
-      <button className="return-option" onClick={() => navigate("/")}>Back to Instructions</button>
-    </div>
-  );
-}
