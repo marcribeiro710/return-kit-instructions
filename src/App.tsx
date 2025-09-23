@@ -1,13 +1,19 @@
 
 import "./App.css";
-import companyLogo from "./assets/company-logo.png";
 
 function App() {
   return (
     <div className="welcome-root">
-      <img src={companyLogo} className="company-logo" alt="Company Logo" />
-      <h1 className="welcome-title">Welcome to the Return Kit Packing Instructions</h1>
-      <p className="welcome-msg">Please select what you are returning to get tailored packing instructions.</p>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkL9UFA4MD2fguemOZclswSCBO73820j_JpA&s"
+        className="company-logo"
+        alt="Company Logo"
+      />
+      <h1 className="welcome-title">Welcome to Return Instructions.</h1>
+      <p className="welcome-msg">
+        Effortlessly pack and return your IT equipment.<br />
+        Select the type of item you want instructions for below.
+      </p>
       <div className="return-options">
         <button className="return-option">Laptop Return</button>
         <button className="return-option">Single Monitor (with/without Laptop)</button>
