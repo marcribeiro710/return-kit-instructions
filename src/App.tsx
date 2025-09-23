@@ -1,34 +1,20 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
 import "./App.css";
+import companyLogo from "./assets/company-logo.png";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="welcome-root">
+      <img src={companyLogo} className="company-logo" alt="Company Logo" />
+      <h1 className="welcome-title">Welcome to the Return Kit Packing Instructions</h1>
+      <p className="welcome-msg">Please select what you are returning to get tailored packing instructions.</p>
+      <div className="return-options">
+        <button className="return-option">Laptop Return</button>
+        <button className="return-option">Single Monitor (with/without Laptop)</button>
+        <button className="return-option">Large Items or Quantities</button>
+        <button className="return-option">Desktops</button>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </div>
   );
 }
 
