@@ -11,6 +11,20 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  z-index: 0;
+  inset: 0;
+  pointer-events: none;
+  background-image: url('data:image/svg+xml;utf8,<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="120" height="120" fill="none"/><g opacity="0.16"><path d="M10 20 L10 30 Q10 35 15 35 L40 35 Q50 35 50 45 L50 60 M60 10 Q70 10 70 20 L70 100 Q70 110 80 110" stroke="%234597a7" stroke-width="2" fill="none"/><circle cx="10" cy="20" r="2" fill="%234597a7"/><circle cx="50" cy="60" r="2" fill="%234597a7"/><circle cx="70" cy="100" r="2" fill="%234597a7"/><circle cx="60" cy="10" r="2" fill="%234597a7"/></g></svg>');
+  background-repeat: repeat;
+  background-size: 120px 120px;
+  opacity: 0.18;
+  mix-blend-mode: lighten;
 }
 
 a {
