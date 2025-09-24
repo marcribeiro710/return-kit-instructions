@@ -23,7 +23,6 @@ export default function LargeItemsInstructionsPage() {
         <div style={{ fontSize: 18, margin: '23px 0 9px 0', color: '#222' }}><b>5- Secure and Fill</b><br />Use any remaining bubble wrap to fill empty spaces and protect the contents during shipping.</div>
         <div style={{ fontSize: 18, margin: '23px 0 9px 0', color: '#222' }}><b>6- Seal and Label</b><br />Close the box securely with the provided tape. Attach all return labels to the outside of the box.</div>
         <img src="https://lh7-rt.googleusercontent.com/docsd/ANYlcfBgNS51Rl9Tlv1-BBmtO3nnQC6NPCB01mL0tawBzdtvR0EO7uvkr1Arl9XnoWYqX-BnfgvsblOsZ4jRe7vSLZiFaevVdLE2TVIqRNqzu0kcQ1vudpXAWCokGShbHyKXnP0HGYU2gXMda_ZV" alt="large_item_seal_and_label" style={{ display: 'block', margin: '18px 0 18px 0', borderRadius: 8, width: '100%', maxWidth: 269, boxShadow: '0 1px 6px rgba(20,32,70,.13)' }} />
-        <div style={{ fontSize: 18, margin: '22px 0 5px 0', color: '#222', fontWeight: 700 }}>Your return is now complete!!!!</div>
       </div>
       <button className="return-option" style={{ marginTop: 28 }} onClick={() => navigate("/")}>Back to Instructions</button>
     </div>

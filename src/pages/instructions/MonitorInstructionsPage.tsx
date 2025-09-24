@@ -48,7 +48,6 @@ export default function MonitorInstructionsPage() {
     { type: 'image', src: 'https://lh7-rt.googleusercontent.com/docsd/ANYlcfAwBULiNKaEo88B9AKY7u0BQS04AysF0UAI97dg7Xp_QkIJ_dp22yy1zOkG7cWDiqtZQYYoZcpqoebfIoDj_cFQCKR0rDqDRNd8NpXni-WDtkTZtKK8SNp37hOUU5zvehdrMsEuOLiBvyMYZao', style: { maxWidth: 279 } },
     { type: 'paragraph', content: '8- Seal and Label' },
     { type: 'paragraph', content: 'Use the provided tape to securely close the box. Affix the return labels to the outside of the box.' },
-    { type: 'paragraph', content: 'Your return is now complete!' },
   ];
   const navigate = useNavigate();
   return (
