@@ -63,6 +63,16 @@ export default function MonitorInstructionsPage() {
             );
           }
           if (block.type === 'paragraph') {
+            // Detect paragraphs like '1- Step Title', '2- Next step...', etc. or special ones like '4- (If Returning a Laptop)'
+            const matchStep = block.content.match(/^(\d+-[^\w\d]?)\s*(.*)/);
+            if (matchStep) {
+              // matchStep[1]: the '1-' or '4- (If Returning a Laptop)' part, matchStep[2]: the rest
+              return (
+                <div key={idx} style={{ fontSize: 18, margin: '17px 0 7px 0', color: '#222' }}>
+                  <b>{matchStep[1].trim()}</b>{matchStep[2] ? ' ' + matchStep[2] : ''}
+                </div>
+              );
+            }
             return (
               <div key={idx} style={{ fontSize: 18, margin: '17px 0 7px 0', color: '#222' }}>{block.content}</div>
             );
