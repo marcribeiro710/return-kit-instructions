@@ -29,8 +29,8 @@ export default function MonitorInstructionsPage() {
     { type: 'paragraph', content: '5- Detach Monitor Base' },
     { type: 'paragraph', content: 'Detach the monitor base from the arm.' },
     { type: 'image-group', images: [
-      { src: 'https://lh7-rt.googleusercontent.com/docsd/ANYlcfBWy3321BUQ6r_bS73IeK1-S-A3V6pvlve9XXeOG-9USvxuhkKqauB073OznQTSWSrPWhHDkkeSFX4u2VZD_pTbFp3JsS-IwXe8LnGlKiMaQQl6P3YEKeJextXIoS_ndXPXlo91Mi1FSy2OyPg', style: { maxWidth: 278 } },
       { src: 'https://lh7-rt.googleusercontent.com/docsd/ANYlcfCyji8xughCPAT-Ng53hmsguuo_7tsCHaEQAh5xigi5jJkUsE8JWbYcjUYQSTLXXyqPYZ59_B8qTDiNueZfOylzL_xfbrX0JhiNFbT2XCdK3KGofMmXasWuooQSFhWHJs2nhEP8YLR8D5QG8NQ', style: { maxWidth: 278 } },
+      { src: 'https://lh7-rt.googleusercontent.com/docsd/ANYlcfBWy3321BUQ6r_bS73IeK1-S-A3V6pvlve9XXeOG-9USvxuhkKqauB073OznQTSWSrPWhHDkkeSFX4u2VZD_pTbFp3JsS-IwXe8LnGlKiMaQQl6P3YEKeJextXIoS_ndXPXlo91Mi1FSy2OyPg', style: { maxWidth: 278 } },
     ] },
     { type: 'image', src: 'https://lh7-rt.googleusercontent.com/docsd/ANYlcfBOk7Ed9iXX2RL1Y1c4b8KVI7Vc6gfQt49YYV6CnIEdmPiI0hfJsvJ7St8zWcjHZ9iJCrbRNgmmBJ0unNr2traFqtN14PIZbEvf9YbBhI7940WRrXalytjtJ1A78wjaEpQVST7T6Nv6oVPM', style: { maxWidth: 240 } },
     { type: 'paragraph', content: '6- Pack Accessories' },
