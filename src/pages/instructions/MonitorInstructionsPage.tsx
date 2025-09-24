@@ -37,8 +37,8 @@ export default function MonitorInstructionsPage() {
     { type: 'paragraph', content: 'Place the separated parts, along with any additional items you are returning (such as cables or adapters), into the extra box provided in the kit. Use the provided bubble wrap to protect the items and fill any empty spaces.' },
     { type: 'image-group', images: [
       { src: 'https://lh7-rt.googleusercontent.com/docsd/ANYlcfAKtKYNTjJG0w2xPYFv9r29T7BFVdw75k4uY-rjKDJzc4UUYi0K64NvLEId0KXFIY33E0T0DiDlhF1KlWN8GFbo43EbK3i9aS3AuLCN1uY9DDbUWnCPZYgLfwYuquctde4', style: { maxWidth: 266 } },
-      { src: 'https://lh7-rt.googleusercontent.com/docsd/ANYlcfCsQlbZmfoAL14PTbleboObFF6LjXP0AHzNV9Zot9vlpfOdR5FzZ46XhNV3WLV7BFu5nBAZx_aq3sxw9SboOcQdCZd4eXzUFHceyaa8oMwgojSbG3bMIkU6th2IMhWGKZpYPXghXwnAjT-UHeA', style: { maxWidth: 265 } },
     ] },
+    { type: 'image', src: 'https://lh7-rt.googleusercontent.com/docsd/ANYlcfCsQlbZmfoAL14PTbleboObFF6LjXP0AHzNV9Zot9vlpfOdR5FzZ46XhNV3WLV7BFu5nBAZx_aq3sxw9SboOcQdCZd4eXzUFHceyaa8oMwgojSbG3bMIkU6th2IMhWGKZpYPXghXwnAjT-UHeA', style: { maxWidth: 265 } },
     { type: 'image-group', images: [
       { src: 'https://lh7-rt.googleusercontent.com/docsd/ANYlcfAShokV1Qf-a_CHyYEvsu3qJEFe2SX6XhhrMhvFORYqaCTcibVOFNPopNyozO-iuB8gOUUO81J-DDbtDZn5btn08mAAvs3TyO_FMZDWH849FfrMVfOHixEXIiBZLbw2U_hKNd6BwYdiD79K4og', style: { maxWidth: 278 } },
       { src: 'https://lh7-rt.googleusercontent.com/docsd/ANYlcfA1k9BZzpDwgZzwGiFWU1nt7BElQa8JZBgJ-xCz-wRn25TMr6mPBrD_MJGLMXRqNP7vulnsizNzljLvUJNbel2bUeVimKpY-zFxqUJu86h1JiRCGiJb44TQqcjQnL-zF_1DbOoA6hqs2LQGGJY', style: { maxWidth: 279 } },
