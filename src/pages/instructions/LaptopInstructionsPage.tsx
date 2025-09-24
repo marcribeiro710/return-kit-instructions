@@ -3,6 +3,7 @@ import LogoButton from "../../shared/LogoButton";
 import "../../App.css";
 
 export default function LaptopInstructionsPage() {
+  document.title = "Return Instructions";
   const navigate = useNavigate();
   return (
     <div className="welcome-root">

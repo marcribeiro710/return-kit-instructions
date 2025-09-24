@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import LogoButton from "../../shared/LogoButton";
 import "../../App.css";
 export default function DesktopInstructionsPage() {
+  document.title = "Return Instructions";
   const blocks = [
     { type: "title", content: "Packaging your full size desktop:" },
     { type: "image", src: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdEuJhvIN6Ho6FSU-dAkL0whoH9yPniaVLYEWSlbzUpJlzrmyeCUTylgj0N35wweBIfgACdPfjoX_zNpYqyIAywpNYSeuGI6Saajtlk0qry7TiuxhjBjVHnE7dj2WKS7kZ_l0cg?key=mctFDgD6vLorRwTP2I4PnQ", style: { maxWidth: 624 } },

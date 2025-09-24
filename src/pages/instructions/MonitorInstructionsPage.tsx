@@ -4,6 +4,7 @@ import LogoButton from "../../shared/LogoButton";
 import "../../App.css";
 
 export default function MonitorInstructionsPage() {
+  document.title = "Return Instructions";
   const monitorBlocks = [
     { type: 'title', content: 'Packing your monitor and laptop box.' },
     { type: 'paragraph', content: '1- Unpack the Box' },
