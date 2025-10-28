@@ -38,9 +38,14 @@ export default function LargeItemsInstructionsPage() {
           if (block.type === "paragraph") {
             return (
               <div key={idx} style={{ fontSize: 18, margin: "12px 0", color: "#222" }}>
-                {block.content.split("\n").map((line, i) => (
-                  <div key={i}>{line}</div>
-                ))}
+                {block.content.split("\n").map((line, i) => {
+                  // Bold the first line (the step title), normal for the rest
+                  if (i === 0 &&
+                    ["1- Unpack the Box", "2- Prepare the Shipping Box", "3- Pack Small Electronics and Accessories", "4- Pack All Items", "5- Secure and Fill", "6- Seal and Label"].some(title => line.startsWith(title))) {
+                    return <div key={i}><b>{line}</b></div>;
+                  }
+                  return <div key={i}>{line}</div>;
+                })}
               </div>
             );
           }
