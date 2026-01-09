@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import WelcomePage from "./pages/WelcomePage";
 import LaptopInstructionsPage from "./pages/instructions/LaptopInstructionsPage";
 import MonitorInstructionsPage from "./pages/instructions/MonitorInstructionsPage";
@@ -16,6 +17,7 @@ function App() {
         <Route path="/instructions/large-items" element={<LargeItemsInstructionsPage />} />
         <Route path="/instructions/desktop" element={<DesktopInstructionsPage />} />
       </Routes>
+      <Analytics />
     </BrowserRouter>
   );
 }
